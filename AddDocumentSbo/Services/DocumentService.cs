@@ -34,7 +34,7 @@ namespace AddDocumentSbo.Services
             var currentDate = DateTime.Now.Date;
             document.BPL_IDAssignedToInvoice = 1;
             document.CardCode = "FOR000011";
-            document.CardName = "SARDO ENGENHARIA LTDA";
+            document.CardName = "Fornecedor Teste";
             document.TaxDate = currentDate;
             document.DocDueDate = currentDate;
             document.DocType = BoDocumentTypes.dDocument_Items;
